@@ -2,6 +2,7 @@
   "name": "fixture-development-proxy",
   "version": "1.0.0",
   "private": true,
+  "files": [],
   "engines": {
     "node": ">= 8.10"
   },
@@ -21,9 +22,13 @@
   "dependencies": {
     "hops": "^11.2.0",
     "hops-development-proxy": "^11.2.0",
+    "hops-mixin": "^11.2.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "cross-fetch": "^3.0.0"
   }
 }

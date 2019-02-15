@@ -24,6 +24,7 @@ const incrementFetch = () => dispatch => {
     });
 };
 
+/* eslint-disable-next-line react/prop-types */
 const Counter = ({ count, increment }) => (
   <React.Fragment>
     <button onClick={increment}>+</button>
