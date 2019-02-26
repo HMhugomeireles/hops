@@ -1,3 +1,6 @@
+import { Router } from 'react-router';
+import { BrowserRouterProps } from 'react-router-dom';
+
 declare module 'hops' {
   type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 
@@ -70,8 +73,12 @@ declare module 'hops' {
 
   export const strategies: any;
 
-  export function render<P>(
+  export interface HopsOptions {
+    router?: BrowserRouterProps;
+  }
+
+  export function render<Options = { [key: string]: any }, P = {}>(
     reactElement: React.ReactElement<P>,
-    options?: { [key: string]: any }
+    options?: Options & HopsOptions
   ): void;
 }

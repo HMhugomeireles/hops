@@ -15,6 +15,9 @@
   },
   "dependencies": {
     "hops": "*",
+    "hops-graphql": "*",
+    "hops-redux": "*",
+    "hops-styled-components": "*",
     "hops-typescript": "*"
   }
 }

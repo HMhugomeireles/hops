@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@types/react": "*",
+    "@types/react-router-dom": "*",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
